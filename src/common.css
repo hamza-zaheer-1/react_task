@@ -1,0 +1,81 @@
+html, body {
+  height: 100%; /* Ensure full height is available */
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+  background-color: #f0f0f0; /* Optional: Background color */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Full-screen height for flex centering */
+}
+
+/* Existing form container styling */
+.form-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  .form-container h2 {
+    color: #6200ea;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 5px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6200ea;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    background: #6200ea;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background: #03dac6;
+  }
+ 
+
+  .payment-methods {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* .payment-option {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  } */
+  
+  .payment-option input {
+    margin-right: 10px;
+    /* margin-left: 5px; */
+  }
+  

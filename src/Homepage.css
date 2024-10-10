@@ -1,0 +1,33 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  .three-d-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #999, 4px 4px 0 #777, 6px 6px 0 #555;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .three-d-text:hover {
+    transform: rotateX(10deg) rotateY(10deg);
+  }
+  
